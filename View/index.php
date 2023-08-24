@@ -44,22 +44,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                     <a class="nav-link" href="/">Acceuil</a>
+                     <a class="nav-link" href="/">Startpagina</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#about">A Propos</a>
+                     <a class="nav-link" href="#about">Over ons</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#service">Comment ça marche ?</a>
+                     <a class="nav-link" href="#service">Hoe het werkt</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="#contact">Contact</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="/login">Connexion</a>
+                     <a class="nav-link" href="/login">Inloggen</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="/register">Inscription</a>
+                     <a class="nav-link" href="/register">Aanmelden</a>
                   </li>
                </ul>
                 
@@ -84,10 +84,10 @@
                            <div class="carousel-item active">
                               <div class="container">
                                  <div class="banner_main">
-                                    <h1 class="banner_taital">Besoin de vous trouvez un Prêt ?</h1>
-                                    <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+                                    <h1 class="banner_taital">Wilt u een lening vinden?</h1>
+                                    <p class="banner_text">Wij zijn de beste oplossing voor uw persoonlijke lening. Eenvoudig en zeer toegankelijk voor u.</p>
                                     <div class="btn_main">
-                                       <div class="contact_bt active" style="width: 300px !important;"><a href="login.html">Faire une demande de prêt</a></div>
+                                       <div class="contact_bt active" style="width: 300px !important;"><a href="login.html">Een lening aanvragen</a></div>
                                     </div>
                                  </div>
                               </div>
@@ -95,11 +95,11 @@
                            <div class="carousel-item">
                               <div class="container">
                                  <div class="banner_main">
-                                    <h1 class="banner_taital">Besoin d'un prêt à - 10 % d'intérêt</h1>
-                                    <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+                                    <h1 class="banner_taital">Een lening nodig met een rente van -10%</h1>
+                                    <p class="banner_text">Onze rentetarieven zijn laag genoeg om u in staat te stellen af ​​te lossen zonder schulden te maken</p>
                                     <div class="btn_main">
                                       
-                                       <div class="readmore_bt"><a href="#">Contactez nous <i class="fa fa-whatsapp" style="font-size:20px; color: antiquewhite;"></i></a></div>
+                                       <div class="readmore_bt"><a href="#">Neem contact <i class="fa fa-whatsapp" style="font-size:20px; color: antiquewhite;"></i></a></div>
                                     </div>
                                  </div>
                               </div>
@@ -107,11 +107,11 @@
                            <div class="carousel-item">
                               <div class="container">
                                  <div class="banner_main">
-                                    <h1 class="banner_taital">Adhérer à notre micro-finance</h1>
-                                    <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+                                    <h1 class="banner_taital">Sluit u aan bij onze microfinanciering</h1>
+                                    <p class="banner_text">Registreer u en word lid van ons platform om de beste leentarieven te krijgen</p>
                                     <div class="btn_main">
-                                       <div class="contact_bt active "><a href="inscription.html">S'inscrire</a></div>
-                                       <div class="readmore_bt"><a href="login.html">Se connectez</a></div>
+                                       <div class="contact_bt active "><a href="inscription.html">Register</a></div>
+                                       <div class="readmore_bt"><a href="login.html">Log in</a></div>
                                     </div>
                                  </div>
                               </div>
@@ -130,8 +130,8 @@
       <!--about section start -->
       <div class="about_section layout_padding" id="about">
          <div class="container">
-            <h1 class="about_taital">A Propos</h1>
-            <p class="about_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+            <h1 class="about_taital">Over</h1>
+            <p class="about_text">Wij zijn een microfinancieringsagentschap waarmee individuen een banklening kunnen krijgen om hun levensomstandigheden te verbeteren. </p>
             <div class="about_section_2">
                <div class="row">
                   <div class="col-lg-6">
@@ -139,20 +139,20 @@
                   </div>
                   <div class="col-lg-6">
                      <div class="about_taital_main">
-                        <p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words </p>
+                        <p class="lorem_text">Onze prioriteit is om u te helpen uit uw financiële leven te komen. Wij zijn een team van gecertificeerde experts wereldwijd.</p>
                         <br>
                         <div class="row g-0 mb-3" style="margin-top: 100px;">
                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                               <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;"><i class="fa fa-check text-primary me-3" style="font-size: 30px;"></i> N° 1 mondiale</h5>
-                               <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;"><i class="fa fa-check text-primary me-3" style="font-size: 30px;"></i> Professionalisme</h5>
+                               <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;">🏆 N°1 wereldwijd</h5>
+                               <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;">🏆 Professionaliteit</h5>
                            </div>
                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                              <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;"><i class="fa fa-check text-primary me-3" style="font-size: 30px;"></i> -30 % de Taux</h5>
-                              <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;"><i class="fa fa-check text-primary me-3" style="font-size: 30px;"></i> 24h/24</h5>
+                              <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;">🎯 -30 % van Tarief</h5>
+                              <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;">⏳ 24h/24</h5>
                            </div>
                        </div>
                        
-                        <div class="read_bt" style="width: 250px;"><a href="login.html">Faire une demande de prêt</a></div>
+                        <div class="read_bt" style="width: 250px;"><a href="login.html">Een lening aanvragen</a></div>
 
                        
                      </div>
@@ -165,34 +165,34 @@
       <!-- services section start -->
       <div class="services_section layout_padding" id="service">
          <div class="container">
-            <h1 class="services_taital">Comment Obtenir un Prêt chez nous ?</h1>
-            <p class="about_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+            <h1 class="services_taital">Hoe kunt u bij ons een lening krijgen?</h1>
+            <p class="about_text">Ons systeem voor het verkrijgen van een lening is heel eenvoudig vergeleken met de andere structuur.</p>
             <div class="services_section_2">
                <div class="row">
                   <div class="col-lg-4">
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-1.png"></div>
                      </div>
-                     <h4 class="selection_text">Soumettre votre demande</h4>
-                     <p class="ipsum_text">There are many variations of passages of Lorem Ipsum available, but the form, by injected humour, or randomised</p>
+                     <h4 class="selection_text">Dien uw verzoek in</h4>
+                     <p class="ipsum_text">Schrijf en stuur ons uw leningsaanvraag door het leningsformulier in te vullen met uw geverifieerde gegevens, zodat u kans maakt dat uw aanvraag wordt gevalideerd./p>
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-4.png"></div>
                      </div>
-                     <h4 class="selection_text">Validez votre demande</h4>
-                     <p class="ipsum_text">There are many variations of passages of Lorem Ipsum available, but the form, by injected humour, or randomised</p>
+                     <h4 class="selection_text">Valideer uw aanvraag</h4>
+                     <p class="ipsum_text">Zodra uw aanvraag bij ons team is ingediend, zullen zij deze zo snel mogelijk analyseren en voor u valideren om uw lening te verkrijgen.</p>
                   </div>
                   <div class="col-lg-4">
                      
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-5.png"></div>
                      </div>
-                     <h4 class="selection_text">Reçevoir votre prêt</h4>
-                     <p class="ipsum_text">There are many variations of passages of Lorem Ipsum available, but the form, by injected humour, or randomised</p>
+                     <h4 class="selection_text">Ontvang uw lening</h4>
+                     <p class="ipsum_text">Zodra uw leningvalidatie is voltooid, hoeft u alleen maar de instructies van ons team te volgen om het geld zo snel en gemakkelijk mogelijk te innen.</p>
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-6.png"></div>
                      </div>
-                     <h4 class="selection_text">Régler les modalitées dans les délais</h4>
-                     <p class="ipsum_text">There are many variations of passages of Lorem Ipsum available, but the form, by injected humour, or randomised</p>
+                     <h4 class="selection_text">Regel de voorwaarden op tijd</h4>
+                     <p class="ipsum_text">Betaal ons alstublieft op tijd terug om uw kansen op een nieuwe te vergroten.</p>
                   </div>
                  
                </div>
@@ -205,13 +205,13 @@
          <div class="container">
             <div class="row">
                <div class="col-md-6">
-                  <div class="blog_img"><img src="images/blog-img.png"></div>
+                  <div class="blog_img"><img src="images/p1.jpg"></div>
                </div>
                <div class="col-md-6">
-                  <h1 class="blog_taital">Trouvez facilement un Prêt pour financer vos projets.</h1>
-                  <p class="blog_text" style="padding-bottom: 30px !important;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words There uffered alteration in some form, by injected humour, or randomised words </p>
+                  <h1 class="blog_taital">Vind eenvoudig een lening om uw projecten te financieren.</h1>
+                  <p class="blog_text" style="padding-bottom: 30px !important;">Heeft u financiële projecten, levensprojecten, persoonlijke projecten en nog veel meer? Wij zijn de beste microfinancieringsstructuur om een ​​lening met zeer lage terugbetalingstarieven te verkrijgen. </p>
                   
-                  <div class="read_b" ><a href="login.html">Faire une demande de Prêt</a></div>
+                  <div class="read_b" ><a href="login.html">Een lening aanvragen</a></div>
                </div>
             </div>
          </div>
@@ -220,13 +220,13 @@
       <!-- events section start -->
       <div class="events_section layout_padding">
          <div class="container">
-            <h1 class="events_taital">Une équipe dynamique à votre service</h1>
+            <h1 class="events_taital">Een dynamisch team dat tot uw dienst staat</h1>
             <div class="events_section_2">
                <div class="events_bg">
                   <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
                </div>
             </div>
-            <div class="seemore_bt" style="width: 300px !important;"><a href="#">Contactez-nous sur Whatsapp <i class="fa fa-whatsapp" style="font-size:20px; color: antiquewhite;"></i></a></div>
+            <div class="seemore_bt" style="width: 300px !important;"><a href="#">Neem contact met ons op via Whatsapp <i class="fa fa-whatsapp" style="font-size:20px; color: antiquewhite;"></i></a></div>
          </div>
       </div>
       <!-- events section end -->
@@ -234,16 +234,16 @@
       <div class="contact_section layout_padding" id="contact">
          <div class="container">
             <h1 class="contact_taital">Contact email</h1>
-            <p class="contact_text">majority have suffered alteration in some form, by injected humour, or </p>
+            <p class="contact_text">Stuur ons een e-mail of neem contact met ons op via WhatsApp voor uw vragen </p>
             <div class="contact_section_2 layout_padding">
                <div class="row">
                   <div class="col-md-6">
                      <div class="contact_main">
-                        <input type="text" class="mail_text" placeholder="Full Name" name="Nom Complet">
-                        <input type="text" class="mail_text" placeholder="Phone Number" name="Numéro de téléphone">
-                        <input type="text" class="mail_text" placeholder="Email" name="Email">
-                        <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
-                        <div class="send_bt"><a href="#">Envoyez</a></div>
+                        <input type="text" class="mail_text" placeholder="Voor-en achternaam" name="Nom_Complet">
+                        <input type="text" class="mail_text" placeholder="Nummer" name="Numéro de téléphone">
+                        <input type="text" class="mail_text" placeholder="E-mail" name="Email">
+                        <textarea class="massage-bt" placeholder="Bericht" rows="5" id="comment" name="Message"></textarea>
+                        <div class="send_bt"><a href="#">Versturen</a></div>
                      </div>
                   </div>
                   
@@ -263,8 +263,8 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="testimonial_taital">Avis Clients</h1>
-                     <p class="testimonial_text">majority have suffered alteration in some form, by injected humour, or </p>
+                     <h1 class="testimonial_taital">De mening van klanten</h1>
+                     <p class="testimonial_text">We hadden een klantenkring die erg tevreden was over onze dienstverlening. </p>
                      <div class="testimonial_section_2">
                         <div class="row">
                            <div class="col-md-6">
@@ -274,7 +274,7 @@
                                     <div class="quick_icon"><img src="images/quick-icon.png"></div>
                                     <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
                                  </div>
-                                 <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                 <p class="dummy_text">Ik ben zo blij dat ik deze structuur heb leren kennen. Leningen met een vrij lage rente, ik raad u aan</p>
                               </div>
                            </div>
                            <div class="col-md-6">
@@ -284,7 +284,7 @@
                                     <div class="quick_icon"><img src="images/quick-icon.png"></div>
                                     <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
                                  </div>
-                                 <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                 <p class="dummy_text">Dankzij eu heb ik eindelijk mijn huis gebouwd. Een werkelijk buitengewone lening. Ik had tranen in mijn ogen op de dag dat ik het geld ontving. Ik stel het je voor.</p>
                               </div>
                            </div>
                         </div>
@@ -293,29 +293,29 @@
                </div>
                <div class="carousel-item">
                   <div class="container">
-                     <h1 class="testimonial_taital">Ils Nous Ont Fait Confiance</h1>
+                     <h1 class="testimonial_taital">Ze vertrouwden ons</h1>
 
-                     <p class="testimonial_text">majority have suffered alteration in some form, by injected humour, or </p>
+                     <p class="testimonial_text">We hadden een klantenkring die erg tevreden was over onze dienstverlening. </p>
                      <div class="testimonial_section_2">
                         <div class="row">
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Jonimo</h4>
+                                    <h4 class="jonimo_text">Franck Millo</h4>
                                     <div class="quick_icon"><img src="images/quick-icon.png"></div>
                                     <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
                                  </div>
-                                 <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                 <p class="dummy_text">Deze lening heeft mijn leven gered. Ik leed aan kanker en geen enkele structuur wilde mij een lening geven om mijn chemo te volgen omdat ik volgens haar niet verkoopbaar was. Maar goed, hij heeft me geholpen en dankzij dat heb ik mijn kanker verslagen en gaat het goed met mijn bedrijf.</p>
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Mark Duo</h4>
+                                    <h4 class="jonimo_text">Arthur Blaber</h4>
                                     <div class="quick_icon"><img src="images/quick-icon.png"></div>
                                     <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
                                  </div>
-                                 <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                 <p class="dummy_text">Wat kan ik zeggen, behalve dat ze de beste zijn? Ik ben blij en ik raad het aan</p>
                               </div>
                            </div>
                         </div>
@@ -324,29 +324,29 @@
                </div>
                <div class="carousel-item">
                   <div class="container">
-                     <h1 class="testimonial_taital">Pourquoi pas vous ?</h1>
+                     <h1 class="testimonial_taital">Waarom jij niet ?</h1>
 
-                     <p class="testimonial_text">majority have suffered alteration in some form, by injected humour, or </p>
+                     <p class="testimonial_text">We hadden een klantenkring die erg tevreden was over onze dienstverlening. </p>
                      <div class="testimonial_section_2">
                         <div class="row">
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Jonimo</h4>
+                                    <h4 class="jonimo_text">Mélanie</h4>
                                     <div class="quick_icon"><img src="images/quick-icon.png"></div>
                                     <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
                                  </div>
-                                 <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                 <p class="dummy_text">Ik dacht dat het een structuur was die deze beloften niet nakwam. Maar uiteindelijk zat ik de hele tijd fout. Ze zijn de beste.</p>
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Mark Duo</h4>
+                                    <h4 class="jonimo_text">Fawaze</h4>
                                     <div class="quick_icon"><img src="images/quick-icon.png"></div>
                                     <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
                                  </div>
-                                 <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                                 <p class="dummy_text">Het geld kwam traag binnen omdat ik niet snel kon reageren op het verzoek van hun team. Maar dat is prima, ik heb de lening kunnen krijgen en ik ben al aan mijn vierde</p>
                               </div>
                            </div>
                         </div>
@@ -360,20 +360,16 @@
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
-            <div class="location_main">
-               <div class="location_text"><img src="images/map-icon.png"><span class="padding_left_10"><a href="#">Location</a></span></div>
-               <div class="location_text center"><img src="images/call-icon.png"><span class="padding_left_10"><a href="#">Call ; 01 1234567890</a></span></div>
-               <div class="location_text right"><img src="images/mail-icon.png"><span class="padding_left_10"><a href="#">demo@gmail.com</a></span></div>
-            </div>
+            
             <div class="footer_section_2">
                <div class="row">
                   <div class="col-lg-4">
-                     <h2 class="footer_taital">About</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority havThere are many variations of passages of Lorem Ipsum available, but the majority hav</p>
+                     <h2 class="footer_taital">Over</h2>
+                     <p class="footer_text">Wij zijn een microfinancieringsagentschap waarmee individuen een banklening kunnen krijgen om hun levensomstandigheden te verbeteren.</p>
                   </div>
                   <div class="col-lg-4">
-                     <h2 class="footer_taital">Services Link</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority havThere are many variations of passages of Lorem Ipsum available, but the majority hav</p>
+                     <h2 class="footer_taital">Klaar, gereed</h2>
+                     <p class="footer_text">Ons systeem voor het verkrijgen van een lening is heel eenvoudig vergeleken met de andere structuur.</p>
                   </div>
                   <div class="col-lg-4">
                      <h2 class="footer_taital">Subscribe</h2>
@@ -397,7 +393,7 @@
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">Copyright 2020 All Rights Reserved.<a href="https://html.design"> Free  html Templates</a></p>
+            <p class="copyright_text">Copyright 2019 All Rights Reserved.</p>
          </div>
       </div>
       <!-- copyright section end -->
