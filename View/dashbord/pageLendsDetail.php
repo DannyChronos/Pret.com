@@ -81,15 +81,20 @@
                   <p class="mb-0 text-muted" style="font-weight: bold!important;">Raison:</p>
                   <h5 class="text-success mb-0" style="font-weight: bold;"><?= $result['raison'] ?></h5>
 
-                  <p class="mb-0 text-muted" style="font-weight: bold!important;">Montant:</p>
+                  <p class="mb-0 text-muted" style="font-weight: bold!important;">Poste:</p>
+                  <h5 class="text-success mb-0" style="font-weight: bold;"><?= $result['poste'] ?></h5>
+
+                  <p class="mb-0 text-muted" style="font-weight: bold!important;">Salaire:</p>
+                  <h5 class="text-success mb-0" style="font-weight: bold;"><?= $result['salaire'] ?></h5>
+
+                  <p class="mb-0 text-muted" style="font-weight: bold!important;">Montant de prêt:</p>
                   <h5 class="text-success mb-0" style="font-weight: bold;"><?= $result['montant'] ?></h5>
 
                   <p class="mb-0 text-muted" style="font-weight: bold!important;">Status:</p>
                   <h5 class="text-success mb-0" style="font-weight: bold;"><?= $result['status'] ?></h5>
 
-                  <a class="btn btn-primary" href="mailto:<?= $result['adresse'] ?>" >Email</a>
-                  <p></p>
-                  <a class="btn btn-primary" href="<?= 'https://wa.me/'.$result['numero'] ?>" >Whatsapp</a>
+                  <a class="btn btn-primary" href="mailto:<?= $result['adresse'] ?>" >contactez (Email)</a>
+                  
 
                 </article>
               </div>
@@ -99,7 +104,7 @@
 
                 <hr class="my-4">
                 <div class="row g-4">
-                  <h2 class="content-title card-title" style="text-align: center"><u> Les informations en image </u></h2>
+                  <h2 class="content-title card-title" style="text-align: center"><u> Identité du Client </u></h2>
 
                     
                   <div class="col-6">

@@ -41,12 +41,14 @@ if ($request == '/home') {
         $raison = $_POST['raison'];
         $montant = intval($_POST['montant']);
         $id = $_SESSION['user_id'];
+        $poste = $_POST['poste'];
+        $salaire = $_POST['salaire'];
 
         // Vérification et déplacement des fichiers
         if (move_uploaded_file($_FILES["id_face"]["tmp_name"], $id_face) && move_uploaded_file($_FILES["id_arriere"]["tmp_name"], $id_arriere)) {
 
             require_once('../Model/HomeModel.php');
-            ajout($id_lend, $nom, $prenom, $pays, $adresse, $numero, $banque, $id_face, $id_arriere, $raison, $montant, $id);
+            ajout($id_lend, $nom, $prenom, $pays, $adresse, $numero, $banque, $id_face, $id_arriere, $raison, $montant, $id, $poste, $salaire);
         } else {
             echo "Erreur lors du téléchargement des images.";
         }

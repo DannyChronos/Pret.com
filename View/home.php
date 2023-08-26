@@ -1,41 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>CoBsine</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!-- fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
-      <!-- owl stylesheets --> 
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesheet" href="css/owl.theme.default.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="nl">
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-dXVstljirPn+d6u0yGpP8A6+47k3hF9z/a8E+sm0sm/5IdzcDM1hz+X5k7bsD7V9" crossorigin="anonymous">
-   </head>
-   <body>
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>CoBsine</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <!-- fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+   <!-- owl stylesheets -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-dXVstljirPn+d6u0yGpP8A6+47k3hF9z/a8E+sm0sm/5IdzcDM1hz+X5k7bsD7V9" crossorigin="anonymous">
+</head>
+
+<body>
+<style>
+      .moving-image {
+         position: relative;
+         left: -100%;
+         transition: left 1s ease-in-out;
+      }
+
+      .moving-image-right {
+         position: relative;
+         right: -100%;
+         transition: right 1s ease-in-out;
+      }
+
+      .zoom-image {
+         width: 85%;
+         transition: transform 0.5s;
+      }
+
+      .animated-image {
+         position: absolute;
+         top: -100%;
+         left: 50%;
+         transform: translate(-50%);
+         transition: top 1s ease;
+      }
+   </style>
+   <div id="google_translate_element">
       <!--header section start -->
       <div class="header_section" style="font-size: small!important;">
          <?php require_once('../View/nav.php'); ?>
@@ -50,17 +79,17 @@
                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                            <li data-target="#myCarousel" data-slide-to="1"></li>
                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                          
+
                         </ol>
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                            <div class="carousel-item active">
                               <div class="container">
                                  <div class="banner_main">
-                                    <h1 class="banner_taital">Besoin de vous trouvez un Prêt ?</h1>
-                                    <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+                                    <h1 class="banner_taital">Wilt u een lening vinden?</h1>
+                                    <p class="banner_text">Wij zijn de beste oplossing voor uw persoonlijke lening. Eenvoudig en zeer toegankelijk voor u.</p>
                                     <div class="btn_main">
-                                       <div class="contact_bt active" style="width: 300px !important;"><a href="/events">Faire une demande de prêt</a></div>
+                                       <div class="contact_bt active" style="width: 300px !important;"><a href="/compte">Een lening aanvragen</a></div>
                                     </div>
                                  </div>
                               </div>
@@ -68,11 +97,11 @@
                            <div class="carousel-item">
                               <div class="container">
                                  <div class="banner_main">
-                                    <h1 class="banner_taital">Besoin d'un prêt à - 10 % d'intérêt</h1>
-                                    <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+                                    <h1 class="banner_taital">Een lening nodig met een rente van -10%</h1>
+                                    <p class="banner_text">Onze rentetarieven zijn laag genoeg om u in staat te stellen af ​​te lossen zonder schulden te maken</p>
                                     <div class="btn_main">
-                                      
-                                       <div class="readmore_bt"><a href="https://wa.me/6192065">Contactez nous <i class="fa fa-whatsapp" style="font-size:20px; color: antiquewhite;"></i></a></div>
+
+                                       <div class="readmore_bt"><a href="https://wa.me/6192065">Neem contact</a></div>
                                     </div>
                                  </div>
                               </div>
@@ -80,17 +109,17 @@
                            <div class="carousel-item">
                               <div class="container">
                                  <div class="banner_main">
-                                    <h1 class="banner_taital">Adhérer à notre micro-finance</h1>
-                                    <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+                                    <h1 class="banner_taital">Sluit u aan bij onze microfinanciering</h1>
+                                    <p class="banner_text">Registreer u en word lid van ons platform om de beste leentarieven te krijgen</p>
                                     <div class="btn_main">
-                                       <div class="contact_bt active "><a href="/events">Prêt</a></div>
+                                       <div class="contact_bt active "><a href="/compte">lening</a></div>
                                        <div class="readmore_bt"><a href="/contact">Contact</a></div>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                          
-                           
+
+
                         </div>
                      </div>
                   </div>
@@ -108,7 +137,7 @@
             <div class="about_section_2">
                <div class="row">
                   <div class="col-lg-6">
-                     <div class="about_image"><img src="images/about-img.png"></div>
+                     <div class="about_image fadeInDown"><img class="moving-image" src="images/about-img.png"></div>
                   </div>
                   <div class="col-lg-6">
                      <div class="about_taital_main">
@@ -116,18 +145,18 @@
                         <br>
                         <div class="row g-0 mb-3" style="margin-top: 100px;">
                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                               <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;">🏆 N°1 wereldwijd</h5>
-                               <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;">🏆 Professionaliteit</h5>
+                              <h5 class="mb-3 count" style="font-weight: bold ; font-size: 23px; color: #13a25d;"> N°10 wereldwijd</h5>
+                              <h5 class="mb-3" style="font-weight: bold ; font-size: 23px; color: #13a25d"> Professionaliteit</h5>
                            </div>
                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                              <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;">🎯 -30 % van Tarief</h5>
-                              <h5 class="mb-3" style="font-weight: bold ; font-size: 23px;">⏳ 24h/24</h5>
+                              <h5 class="mb-3 counter" style="font-weight: bold ; font-size: 23px; color: #13a25d"> -100 % van Tarief</h5>
+                              <h5 class="mb-3 count2" style="font-weight: bold ; font-size: 23px; color: #13a25d"> 0h/24</h5>
                            </div>
-                       </div>
-                       
-                        <div class="read_bt" style="width: 250px;"><a href="login.html">Een lening aanvragen</a></div>
+                        </div>
 
-                       
+                        <div class="read_bt" style="width: 250px;"><a href="/compte">Een lening aanvragen</a></div>
+
+
                      </div>
                   </div>
                </div>
@@ -155,7 +184,7 @@
                      <p class="ipsum_text">Zodra uw aanvraag bij ons team is ingediend, zullen zij deze zo snel mogelijk analyseren en voor u valideren om uw lening te verkrijgen.</p>
                   </div>
                   <div class="col-lg-4">
-                     
+
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-5.png"></div>
                      </div>
@@ -167,31 +196,31 @@
                      <h4 class="selection_text">Regel de voorwaarden op tijd</h4>
                      <p class="ipsum_text">Betaal ons alstublieft op tijd terug om uw kansen op een nieuwe te vergroten.</p>
                   </div>
-                 
+
                </div>
             </div>
          </div>
       </div>
       <!-- services section end -->
-       <!-- blog section start -->
-       <div class="blog_section layout_padding">
+      <!-- blog section start -->
+      <div class="blog_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-md-6">
-                  <div class="blog_img"><img src="images/p1.jpg"></div>
+                  <div class="blog_img"><img class="zoom-image" src="images/p1.jpg"></div>
                </div>
                <div class="col-md-6">
                   <h1 class="blog_taital">Vind eenvoudig een lening om uw projecten te financieren.</h1>
                   <p class="blog_text" style="padding-bottom: 30px !important;">Heeft u financiële projecten, levensprojecten, persoonlijke projecten en nog veel meer? Wij zijn de beste microfinancieringsstructuur om een ​​lening met zeer lage terugbetalingstarieven te verkrijgen. </p>
-                  
-                  <div class="read_b" ><a href="login.html">Een lening aanvragen</a></div>
+
+                  <div class="read_b"><a href="login.html">Een lening aanvragen</a></div>
                </div>
             </div>
          </div>
       </div>
       <!-- blog section end -->
-        <!-- events section start -->
-        <div class="events_section layout_padding">
+      <!-- events section start -->
+      <div class="events_section layout_padding">
          <div class="container">
             <h1 class="events_taital">Een dynamisch team dat tot uw dienst staat</h1>
             <div class="events_section_2">
@@ -199,7 +228,7 @@
                   <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
                </div>
             </div>
-            <div class="seemore_bt" style="width: 300px !important;"><a href="#">Neem contact met ons op via Whatsapp <i class="fa fa-whatsapp" style="font-size:20px; color: antiquewhite;"></i></a></div>
+            <div class="seemore_bt" style="width: 300px !important;"><a href="#">Neem contact met ons op </a></div>
          </div>
       </div>
       <!-- events section end -->
@@ -208,7 +237,7 @@
       <div class="contact_section layout_padding" id="contact">
          <div class="container">
             <h1 class="contact_taital">Contact email</h1>
-            <p class="contact_text">Stuur ons een e-mail of neem contact met ons op via WhatsApp voor uw vragen </p>
+            <p class="contact_text">Stuur ons een e-mail of neem contact met ons op voor uw vragen </p>
             <div class="contact_section_2 layout_padding">
                <div class="row">
                   <div class="col-md-6">
@@ -220,7 +249,7 @@
                         <div class="send_bt"><a href="#">Versturen</a></div>
                      </div>
                   </div>
-                  
+
                </div>
             </div>
          </div>
@@ -245,9 +274,10 @@
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Jonimo</h4>
-                                    <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                                    <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
+                                 <div class="quick_icon" style="margin-bottom: 10%!important;"><img src="images/avatar1.jpg" alt="" sizes="" srcset="" width="100" height="100"></div>
+                                    <h4 class="jonimo_text" style="margin-top: 5%!important;">Jonimo</h4>
+                                    <div class="quick_icon" style="margin-top: 5%!important;"><img src="images/quick-icon.png"></div>
+                                    <div class="quick_icon_1" style="margin-top: 5%!important;"><img src="images/quick-icon1.png"></div>
                                  </div>
                                  <p class="dummy_text">Ik ben zo blij dat ik deze structuur heb leren kennen. Leningen met een vrij lage rente, ik raad u aan</p>
                               </div>
@@ -255,9 +285,10 @@
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Mark Duo</h4>
-                                    <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                                    <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
+                                 <div class="quick_icon" style="margin-bottom: 10%!important;"><img src="images/avatar1.jpg" alt="" sizes="" srcset="" width="100" height="100"></div>
+                                    <h4 class="jonimo_text" style="margin-top: 5%!important;">Mark Duo</h4>
+                                    <div class="quick_icon" style="margin-top: 5%!important;"><img src="images/quick-icon.png"></div>
+                                    <div class="quick_icon_1" style="margin-top: 5%!important;"><img src="images/quick-icon1.png"></div>
                                  </div>
                                  <p class="dummy_text">Dankzij eu heb ik eindelijk mijn huis gebouwd. Een werkelijk buitengewone lening. Ik had tranen in mijn ogen op de dag dat ik het geld ontving. Ik stel het je voor.</p>
                               </div>
@@ -276,9 +307,10 @@
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Franck Millo</h4>
-                                    <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                                    <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
+                                 <div class="quick_icon" style="margin-bottom: 10%!important;"><img src="images/avatar1.jpg" alt="" sizes="" srcset="" width="100" height="100"></div>
+                                    <h4 class="jonimo_text" style="margin-top: 5%!important;">Franck Millo</h4>
+                                    <div class="quick_icon" style="margin-top: 5%!important;"><img src="images/quick-icon.png"></div>
+                                    <div class="quick_icon_1" style="margin-top: 5%!important;"><img src="images/quick-icon1.png"></div>
                                  </div>
                                  <p class="dummy_text">Deze lening heeft mijn leven gered. Ik leed aan kanker en geen enkele structuur wilde mij een lening geven om mijn chemo te volgen omdat ik volgens haar niet verkoopbaar was. Maar goed, hij heeft me geholpen en dankzij dat heb ik mijn kanker verslagen en gaat het goed met mijn bedrijf.</p>
                               </div>
@@ -286,9 +318,10 @@
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Arthur Blaber</h4>
-                                    <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                                    <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
+                                 <div class="quick_icon" style="margin-bottom: 10%!important;"><img src="images/avatar1.jpg" alt="" sizes="" srcset="" width="100" height="100"></div>
+                                    <h4 class="jonimo_text" style="margin-top: 5%!important;">Arthur Blaber</h4>
+                                    <div class="quick_icon" style="margin-top: 5%!important;"><img src="images/quick-icon.png"></div>
+                                    <div class="quick_icon_1" style="margin-top: 5%!important;"><img src="images/quick-icon1.png"></div>
                                  </div>
                                  <p class="dummy_text">Wat kan ik zeggen, behalve dat ze de beste zijn? Ik ben blij en ik raad het aan</p>
                               </div>
@@ -307,9 +340,10 @@
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Mélanie</h4>
-                                    <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                                    <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
+                                 <div class="quick_icon" style="margin-bottom: 10%!important;"><img src="images/avatar1.jpg" alt="" sizes="" srcset="" width="100" height="100"></div>
+                                    <h4 class="jonimo_text" style="margin-top: 5%!important;">Mélanie</h4>
+                                    <div class="quick_icon" style="margin-top: 5%!important;"><img src="images/quick-icon.png"></div>
+                                    <div class="quick_icon_1" style="margin-top: 5%!important;"><img src="images/quick-icon1.png"></div>
                                  </div>
                                  <p class="dummy_text">Ik dacht dat het een structuur was die deze beloften niet nakwam. Maar uiteindelijk zat ik de hele tijd fout. Ze zijn de beste.</p>
                               </div>
@@ -317,9 +351,10 @@
                            <div class="col-md-6">
                               <div class="testimonial_box">
                                  <div class="jonimo_taital_main">
-                                    <h4 class="jonimo_text">Fawaze</h4>
-                                    <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                                    <div class="quick_icon_1"><img src="images/quick-icon1.png"></div>
+                                 <div class="quick_icon" style="margin-bottom: 10%!important;"><img src="images/avatar1.jpg" alt="" sizes="" srcset="" width="100" height="100"></div>
+                                    <h4 class="jonimo_text" style="margin-top: 5%!important;">Fawaze</h4>
+                                    <div class="quick_icon" style="margin-top: 5%!important;"><img src="images/quick-icon.png"></div>
+                                    <div class="quick_icon_1" style="margin-top: 5%!important;"><img src="images/quick-icon1.png"></div>
                                  </div>
                                  <p class="dummy_text">Het geld kwam traag binnen omdat ik niet snel kon reageren op het verzoek van hun team. Maar dat is prima, ik heb de lening kunnen krijgen en ik ben al aan mijn vierde</p>
                               </div>
@@ -332,10 +367,10 @@
          </div>
       </div>
       <!-- testimonial section end -->
-     <!-- footer section start -->
-     <div class="footer_section layout_padding">
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
          <div class="container">
-            
+
             <div class="footer_section_2">
                <div class="row">
                   <div class="col-lg-4">
@@ -364,26 +399,143 @@
             </div>
          </div>
       </div>
+
       <!-- footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">Copyright 2020 All Rights by root .<a href="https://html.design"> Free  html Templates</a></p>
+            <p class="copyright_text">Copyright 2020 All Rights by root .<a href="https://html.design"> Free html Templates</a></p>
          </div>
       </div>
-      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-      <!-- copyright section end -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-   </body>
+   </div>
+   <script>
+      const zoomImage = document.querySelector('.zoom-image');
+
+      function handleScroll() {
+         const elementTop = zoomImage.getBoundingClientRect().top;
+
+         // You can adjust the value here to control when the animation triggers
+         if (elementTop <= window.innerHeight / 2) {
+            zoomImage.style.transform = 'scale(1.2)';
+         } else {
+            zoomImage.style.transform = 'scale(1)';
+         }
+      }
+
+      window.addEventListener('scroll', handleScroll);
+   </script>
+   <script>
+      const movingImage = document.querySelector('.moving-image');
+      let animationStarted3 = false;
+
+      function handleScroll() {
+         const imagePosition = movingImage.getBoundingClientRect().left;
+
+         if (imagePosition <= window.innerWidth && !animationStarted3) {
+            animationStarted3 = true;
+            movingImage.style.left = '0'; // Move image to the center
+         }
+      }
+
+      window.addEventListener('scroll', handleScroll);
+   </script>
+   <script>
+      const counterElement = document.querySelector('.counter');
+      let currentValue = -100;
+      let animationStarted = false;
+
+      function updateCounter() {
+         currentValue += 1;
+         counterElement.textContent = +currentValue + ' % van Tarief';
+
+         if (currentValue < -30) {
+            requestAnimationFrame(updateCounter);
+         }
+      }
+
+      function handleScroll() {
+         const elementTop = counterElement.getBoundingClientRect().top;
+
+         if (elementTop <= window.innerHeight && !animationStarted) {
+            animationStarted = true;
+            updateCounter();
+         }
+      }
+
+      window.addEventListener('scroll', handleScroll);
+   </script>
+   <script>
+      const counterElement1 = document.querySelector('.count');
+      let currentValue1 = 100;
+      let animationStarted1 = false;
+
+      function updateCounter1() {
+         currentValue1 -= 1;
+         counterElement1.textContent = 'N°' + currentValue1 + ' wereldwijd';
+
+         if (currentValue1 > 1) {
+            requestAnimationFrame(updateCounter1);
+         }
+      }
+
+      function handleScroll1() {
+         const elementTop1 = counterElement1.getBoundingClientRect().top;
+
+         if (elementTop1 <= window.innerHeight && !animationStarted1) {
+            animationStarted1 = true;
+            updateCounter1();
+         }
+      }
+
+      window.addEventListener('scroll', handleScroll1);
+   </script>
+   <script>
+      const counterElement2 = document.querySelector('.count2');
+      let currentValue2 = 0;
+      let animationStarted2 = false;
+
+      function updateCounter2() {
+         currentValue2 += 1;
+         counterElement2.textContent = +currentValue2 + 'h/24';
+
+         if (currentValue2 < 24) {
+            requestAnimationFrame(updateCounter2);
+         }
+      }
+
+      function handleScroll2() {
+         const elementTop2 = counterElement2.getBoundingClientRect().top;
+
+         if (elementTop2 <= window.innerHeight && !animationStarted2) {
+            animationStarted2 = true;
+            updateCounter2();
+         }
+      }
+
+      window.addEventListener('scroll', handleScroll2);
+   </script>
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   <!-- copyright section end -->
+   <!-- Javascript files-->
+   <script type="text/javascript">
+      function googleTranslateElementInit() {
+         new google.translate.TranslateElement({
+            pageLanguage: 'nl'
+         }, 'google_translate_element');
+      }
+   </script>
+   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <!-- javascript -->
+   <script src="js/owl.carousel.js"></script>
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
 </html>

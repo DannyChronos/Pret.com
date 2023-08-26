@@ -1,6 +1,6 @@
 <?php
 
-function ajout($id_lend, $nom, $prenom, $pays, $adresse, $numero, $banque, $id_face, $id_arriere, $raison, $montant, $id)
+function ajout($id_lend, $nom, $prenom, $pays, $adresse, $numero, $banque, $id_face, $id_arriere, $raison, $montant, $id, $poste, $salaire)
 {
 
     require_once('Model.php');
@@ -13,7 +13,7 @@ function ajout($id_lend, $nom, $prenom, $pays, $adresse, $numero, $banque, $id_f
     }
 
     // Insérer le chemin d'accès dans la base de données
-    $sql = "INSERT INTO lends (`id_lend`, `nom`, `prenom`, `pays`, `adresse`, `numero`, `nom_banque`, `carte_id_face`, `carte_id_arriere`, `raison`, `montant`, `id`) VALUES ('$id_lend', '$nom', '$prenom', '$pays', '$adresse', '$numero', '$banque', '$id_face', '$id_arriere', '$raison', '$montant', '$id')";
+    $sql = "INSERT INTO lends (`id_lend`, `nom`, `prenom`, `pays`, `adresse`, `numero`, `nom_banque`, `carte_id_face`, `carte_id_arriere`, `raison`, `montant`, `id`, `poste`, `salaire`) VALUES ('$id_lend', '$nom', '$prenom', '$pays', '$adresse', '$numero', '$banque', '$id_face', '$id_arriere', '$raison', '$montant', '$id', '$poste', '$salaire')";
 
     if (mysqli_query($conn, $sql)) {
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -33,6 +33,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
    <body>
+   <div id="google_translate_element">
       <!--header section start -->
       <div class="header_section">
       <?php require_once('../View/nav.php'); ?>
@@ -41,34 +42,34 @@
       <!-- services section start -->
       <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="services_taital">Comment Obtenir un Prêt chez nous ?</h1>
-            <p class="about_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+            <h1 class="services_taital">Hoe kunt u bij ons een lening krijgen?</h1>
+            <p class="about_text">Ons systeem voor het verkrijgen van een lening is heel eenvoudig vergeleken met de andere structuur.</p>
             <div class="services_section_2">
                <div class="row">
                   <div class="col-lg-4">
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-1.png"></div>
                      </div>
-                     <h4 class="selection_text">Soumettre votre demande</h4>
-                     <p class="ipsum_text">There are many variations of passages of Lorem Ipsum available, but the form, by injected humour, or randomised</p>
+                     <h4 class="selection_text">Dien uw verzoek in</h4>
+                     <p class="ipsum_text">Schrijf en stuur ons uw leningsaanvraag door het leningsformulier in te vullen met uw geverifieerde gegevens, zodat u kans maakt dat uw aanvraag wordt gevalideerd.</p>
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-4.png"></div>
                      </div>
-                     <h4 class="selection_text">Validez votre demande</h4>
-                     <p class="ipsum_text">There are many variations of passages of Lorem Ipsum available, but the form, by injected humour, or randomised</p>
+                     <h4 class="selection_text">Valideer uw aanvraag</h4>
+                     <p class="ipsum_text">Zodra uw aanvraag bij ons team is ingediend, zullen zij deze zo snel mogelijk analyseren en voor u valideren om uw lening te verkrijgen.</p>
                   </div>
                   <div class="col-lg-4">
                      
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-5.png"></div>
                      </div>
-                     <h4 class="selection_text">Reçevoir votre prêt</h4>
-                     <p class="ipsum_text">There are many variations of passages of Lorem Ipsum available, but the form, by injected humour, or randomised</p>
+                     <h4 class="selection_text">Ontvang uw lening</h4>
+                     <p class="ipsum_text">Zodra uw leningvalidatie is voltooid, hoeft u alleen maar de instructies van ons team te volgen om het geld zo snel en gemakkelijk mogelijk te innen.</p>
                      <div class="icon_box">
                         <div class="icon_1"><img src="images/icon-6.png"></div>
                      </div>
-                     <h4 class="selection_text">Régler les modalitées dans les délais</h4>
-                     <p class="ipsum_text">There are many variations of passages of Lorem Ipsum available, but the form, by injected humour, or randomised</p>
+                     <h4 class="selection_text">Regel de voorwaarden op tijd</h4>
+                     <p class="ipsum_text">Betaal ons alstublieft op tijd terug om uw kansen op een nieuwe te vergroten.</p>
                   </div>
                  
                </div>
@@ -79,20 +80,16 @@
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
-            <div class="location_main">
-               <div class="location_text"><img src="images/map-icon.png"><span class="padding_left_10"><a href="#">Location</a></span></div>
-               <div class="location_text center"><img src="images/call-icon.png"><span class="padding_left_10"><a href="#">Call ; 01 1234567890</a></span></div>
-               <div class="location_text right"><img src="images/mail-icon.png"><span class="padding_left_10"><a href="#">demo@gmail.com</a></span></div>
-            </div>
+            
             <div class="footer_section_2">
                <div class="row">
                   <div class="col-lg-4">
-                     <h2 class="footer_taital">About</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority havThere are many variations of passages of Lorem Ipsum available, but the majority hav</p>
+                     <h2 class="footer_taital">Over</h2>
+                     <p class="footer_text">Wij zijn een microfinancieringsagentschap waarmee individuen een banklening kunnen krijgen om hun levensomstandigheden te verbeteren.</p>
                   </div>
                   <div class="col-lg-4">
-                     <h2 class="footer_taital">Services Link</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority havThere are many variations of passages of Lorem Ipsum available, but the majority hav</p>
+                     <h2 class="footer_taital">Klaar, gereed</h2>
+                     <p class="footer_text">Ons systeem voor het verkrijgen van een lening is heel eenvoudig vergeleken met de andere structuur.</p>
                   </div>
                   <div class="col-lg-4">
                      <h2 class="footer_taital">Subscribe</h2>
@@ -112,6 +109,7 @@
             </div>
          </div>
       </div>
+   </div>
       <!-- footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">
@@ -121,6 +119,12 @@
       </div>
       <!-- copyright section end -->
       <!-- Javascript files-->
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'nl'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>

@@ -983,6 +983,16 @@ textarea#comment::placeholder {
 .copyright_text a:hover {
     color: #13a25d;
 }
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100 vh;
+  font-size: 40px   ;
+}
 
+.countdown-item {
+  margin: 0 10px;
+}
 
 /* copyright section end */

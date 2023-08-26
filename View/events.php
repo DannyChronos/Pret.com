@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <!-- basic -->
@@ -36,6 +36,7 @@
 </head>
 
 <body>
+<div id="google_translate_element">
     <!--header section start -->
     <div class="header_section">
         <?php require_once('../View/nav.php'); ?>
@@ -49,12 +50,12 @@
                     <div class="wrapper wrapper--w790">
                         <div class="card card-5">
                             <div class="card-heading">
-                                <h2 class="title">Déposser votre dossier pour profitez de nos offres de Prêt</h2>
+                                <h2 class="title">Dien uw dossier in om te profiteren van onze leningaanbiedingen</h2>
                             </div>
                             <div class="card-body">
                                 <form action="" method="post" enctype=multipart/form-data>
                                     <div class="form-row">
-                                        <div class="name">Nom</div>
+                                        <div class="name">Naam</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="text" name="nom" required>
@@ -62,7 +63,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Prenom</div>
+                                        <div class="name">Voornaam</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="text" name="prenom" required>
@@ -70,7 +71,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Pays</div>
+                                        <div class="name">Land</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="text" name="pays" required>
@@ -78,7 +79,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Email</div>
+                                        <div class="name">E-mail</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="email" name="email" required>
@@ -86,7 +87,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Numero</div>
+                                        <div class="name">Nummer</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="text" name="numero" required>
@@ -94,7 +95,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Nom de la banque</div>
+                                        <div class="name">Naam van de bank</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="text" name="banque" required>
@@ -102,7 +103,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Photo de la carte d'identité (Face)</div>
+                                        <div class="name">Foto van de identiteitskaart (Gezicht)</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="file" name="id_face" required>
@@ -110,7 +111,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Photo de la carte d'identité (Arriere)</div>
+                                        <div class="name">Foto van de identiteitskaart (achterkant)</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="file" name="id_arriere" required>
@@ -118,7 +119,7 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Raison</div>
+                                        <div class="name">Reden</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="text" name="raison" style="height: 100px !important;" required>
@@ -126,10 +127,26 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="name">Montant</div>
+                                        <div class="name">Hoeveelheid</div>
                                         <div class="value">
                                             <div class="input-group">
                                                 <input class="input--style-5" type="text" name="montant" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="name">Functie</div>
+                                        <div class="value">
+                                            <div class="input-group">
+                                                <input class="input--style-5" type="text" name="poste" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="name">Salaris</div>
+                                        <div class="value">
+                                            <div class="input-group">
+                                                <input class="input--style-5" type="text" name="salaire" required>
                                             </div>
                                         </div>
                                     </div>
@@ -147,40 +164,37 @@
     <!-- events section end -->
     <!-- footer section start -->
     <div class="footer_section layout_padding">
-        <div class="container">
-            <div class="location_main">
-                <div class="location_text"><img src="images/map-icon.png"><span class="padding_left_10"><a href="#">Location</a></span></div>
-                <div class="location_text center"><img src="images/call-icon.png"><span class="padding_left_10"><a href="#">Call ; 01 1234567890</a></span></div>
-                <div class="location_text right"><img src="images/mail-icon.png"><span class="padding_left_10"><a href="#">demo@gmail.com</a></span></div>
-            </div>
+         <div class="container">
+            
             <div class="footer_section_2">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <h2 class="footer_taital">About</h2>
-                        <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority havThere are many variations of passages of Lorem Ipsum available, but the majority hav</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h2 class="footer_taital">Services Link</h2>
-                        <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority havThere are many variations of passages of Lorem Ipsum available, but the majority hav</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h2 class="footer_taital">Subscribe</h2>
-                        <input type="text" class="Enter_text" placeholder="Enter Your Email" name="Enter Your Email">
-                        <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-                        <div class="social_icon">
-                            <ul>
-                                <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                                <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                                <li><a href="#"><img src="images/youtub-icon.png"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-4">
+                     <h2 class="footer_taital">Over</h2>
+                     <p class="footer_text">Wij zijn een microfinancieringsagentschap waarmee individuen een banklening kunnen krijgen om hun levensomstandigheden te verbeteren.</p>
+                  </div>
+                  <div class="col-lg-4">
+                     <h2 class="footer_taital">Klaar, gereed</h2>
+                     <p class="footer_text">Ons systeem voor het verkrijgen van een lening is heel eenvoudig vergeleken met de andere structuur.</p>
+                  </div>
+                  <div class="col-lg-4">
+                     <h2 class="footer_taital">Subscribe</h2>
+                     <input type="text" class="Enter_text" placeholder="Enter Your Email" name="Enter Your Email">
+                     <div class="subscribe_bt"><a href="#">Subscribe</a></div>
+                     <div class="social_icon">
+                        <ul>
+                           <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                           <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                           <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                           <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                           <li><a href="#"><img src="images/youtub-icon.png"></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
+         </div>
+      </div>
+</div>
     <!-- footer section end -->
     <!-- copyright section start -->
     <div class="copyright_section">
@@ -190,6 +204,12 @@
     </div>
     <!-- copyright section end -->
     <!-- Javascript files-->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'nl'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

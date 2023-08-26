@@ -3,9 +3,6 @@
 $request = $_SERVER['REQUEST_URI'];
 
 if ($request == '/login') {
-    session_start();
-
-
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Récupérer les données du formulaire

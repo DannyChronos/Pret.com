@@ -8,7 +8,6 @@ $row = verify();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="theme.min.css">
     <title></title>
 </head>
@@ -23,27 +22,27 @@ $row = verify();
                     case 'Première étape':
                         echo "                <div class='progress'>
                         <div class='progress-bar progress-bar-striped bg-success' role='progressbar' style='width: 10%' aria-valuenow='10' aria-valuemin='0' aria-valuemax='100'><b>10%</b></div>
-                    </div>                         <p></p><center><p>Veuillez contactez le service client pour passer à l'étape suivant</p></center>";
+                    </div>                         <p></p><center><p>Uw leningaanvraag wordt verwerkt. De klantenservice neemt contact met u op</p></center>";
                         break;
                     case 'Deuxième étape':
                         echo "                <div class='progress'>
                         <div class='progress-bar progress-bar-striped bg-success' role='progressbar' style='width: 25%' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'><b>25%</b></div>
-                    </div><p></p><center><p>Veuillez contactez le service client pour passer à l'étape suivant</p></center>";
+                    </div><p></p><center><p>Uw leningaanvraag wordt verwerkt. De klantenservice neemt contact met u op</p></center>";
                         break;
                     case 'Troisième étape':
                         echo "                <div class='progress'>
                         <div class='progress-bar progress-bar-striped bg-success' role='progressbar' style='width: 50%' aria-valuenow='50' aria-valuemin='0' aria-valuemax='100'><b>50%</b></div>
-                    </div><p></p><center><p>Veuillez contactez le service client pour passer à l'étape suivant</p></center>";
+                    </div><p></p><center><p>Uw leningaanvraag wordt verwerkt. De klantenservice neemt contact met u op</p></center>";
                         break;
                     case 'Quatrième étape':
                         echo "                <div class='progress'>
                         <div class='progress-bar progress-bar-striped bg-success' role='progressbar' style='width: 75%' aria-valuenow='75' aria-valuemin='0' aria-valuemax='100'><b>75%</b></div>
-                    </div><p></p><center><p>Veuillez contactez le service client pour passer à l'étape suivant</p></center>";
+                    </div><p></p><center><p>Uw leningaanvraag wordt verwerkt. De klantenservice neemt contact met u op</p></center>";
                         break;
                     default:
                     echo ("                <div class='progress'>
                     <div class='progress-bar progress-bar-striped bg-success' role='progressbar' style='width: 100%' aria-valuenow='100' aria-valuemin='0' aria-valuemax='100'><b>100%</b></div>
-                </div><p></p><center><p style='font-size: 20px!important;'>Felicitations</p><p><form action='' method='post'><button type='submit' class='btn btn-success' name='etat' value='".$row['id_lend']."'>Terminé</button></form></p></center>");
+                </div><p></p><center><p style='font-size: 20px!important;'>Gefeliciteerd</p><p><form action='' method='post'><button type='submit' class='btn btn-success' name='etat' value='".$row['id_lend']."'>Afgerond</button></form></p></center>");
                         break;
                 }
                 ?>
@@ -51,7 +50,6 @@ $row = verify();
             </section>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
 </html>
